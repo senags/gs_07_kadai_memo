@@ -39,14 +39,17 @@
                 <h1>My place</h1>
                 <p><label>Enter the place you reccomend or hope to visit again. <input type="text" id="key" value=""
                             required placeholder="Your favorite place"></label></p>
-                <p><label>Enter the coordinate of the place you entered. <input type="text" id="value" value="" required
-                            placeholder="35N135E"></label></p>
+                <p><label>Enter the town where the place you entered is located. <input type="text" id="value" value=""
+                            required placeholder="Town name"></label></p>
                 <button type="submit" id="save">Save</button>
             </div>
             <h1>History</h1>
             <div class="listwraper">
-                <table class="list">
-                <tr><th>Favorite place</th><th>Coordinate</th></tr>
+                <table id="list">
+                        <tr>
+                            <th>Favorite place</th>
+                            <th>Name of the town</th>
+                        </tr>
                 </table>
                 <button type="submit" id="clear">Clear</button>
             </div>
