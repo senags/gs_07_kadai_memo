@@ -30,7 +30,29 @@ header {
 
 }
 
+input{
+    margin-left: 10px;
+}
+
+.list{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+
+#save{
+    margin-bottom: 30px;
+}
+
+th{
+    border: 2px solid black;
+    width: 20%;
+}
+
 footer {
     background-color: rgb(161, 161, 161);
     text-align: center;
+    margin-top: 20px;
 }
