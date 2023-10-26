@@ -15,6 +15,7 @@
          font-family: 'Roboto', sans-serif; -->
     <title>Once Again</title>
     <link rel="shortcut icon" href="./img/foricon.001.png">
+    <meta name="robots" content="noindex">
 </head>
 
 <body>
@@ -37,19 +38,23 @@
         <div class="container">
             <div class="title">
                 <h1>My place</h1>
-                <p><label>Enter the place you reccomend or hope to visit again. <input type="text" id="key" value=""
+                <p><label>Enter the place you reccomend or hope to visit again. <input required type="text" id="key" value=""
                             required placeholder="Your favorite place"></label></p>
-                <p><label>Enter the town where the place you entered is located. <input type="text" id="value" value=""
+                <p><label>Enter the town where the place you entered is located. <input required type="text" id="value" value=""
                             required placeholder="Town name"></label></p>
                 <button type="submit" id="save">Save</button>
             </div>
             <h1>History</h1>
             <div class="listwraper">
-                <table id="list">
+                <table id="title">
+                    <thead>
                         <tr>
                             <th>Favorite place</th>
                             <th>Name of the town</th>
                         </tr>
+                    </thead>
+                    <tbody id="list">
+                    </tbody>
                 </table>
                 <button type="submit" id="clear">Clear</button>
             </div>
